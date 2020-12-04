@@ -1,0 +1,72 @@
+[
+    {
+        "lesson_id" : 1,    
+        "name" : "Lesson 1",
+        "previous_lessons" : null,
+        "questions" : [1,2],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 2,    
+        "name" : "Lesson 2",
+        "previous_lessons" : [1],
+        "questions" : [3,4],
+        "minimum_score": 8
+    },
+    {
+        "lesson_id" : 3,    
+        "name" : "Lesson 3",
+        "previous_lessons" : [2],
+        "questions" : [1,2],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 4,    
+        "name" : "Lesson 4",
+        "previous_lessons" : null,
+        "questions" : [3,4],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 5,   
+        "name" : "Lesson 5",
+        "previous_lessons" : null,
+        "questions" : [1,2],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 6,    
+        "name" : "Lesson 6",
+        "previous_lessons" : [4,5],
+        "questions" : [1,2],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 7,    
+        "name" : "Lesson 7",
+        "previous_lessons" : null,
+        "questions" : [3,4],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 8,    
+        "name" : "Lesson 8",
+        "previous_lessons" : [7],
+        "questions" : [1,2],
+        "minimum_score": 6
+    },
+    {
+        "lesson_id" : 9,    
+        "name" : "Lesson 9",
+        "previous_lessons" : null,
+        "questions" : [3,4],
+        "minimum_score": 8
+    },
+    {
+        "lesson_id" : 10,    
+        "name" : "Lesson 10",
+        "previous_lessons" : [9],
+        "questions" : [1,2],
+        "minimum_score": 6
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "question_id": 1,
+        "question" : "Question 1?",
+        "score" : 4,
+        "allCorrectRequired" : true,
+        "aswers" : ["True", "False"],
+        "correct_answers" : ["True"]
+    },
+    {
+        "question_id": 2,
+        "question" : "Question 2?",
+        "score" : 2,
+        "allCorrectRequired" : true,
+        "aswers" : ["Option a", "Option b", "Option c"],
+        "correct_answers" : ["Option b"]
+    },
+    {
+        "question_id": 3,
+        "question" : "Question 3?",
+        "score" : 4,
+        "allCorrectRequired" : false,
+        "aswers" : ["Option a", "Option b", "Option c"],
+        "correct_answers" : ["Option b","Option c"]
+    },
+    {
+        "question_id": 4,
+        "question" : "Question 4?",
+        "score" : 4,
+        "allCorrectRequired" : true,
+        "aswers" : ["Option a", "Option b", "Option c"],
+        "correct_answers" : ["Option b","Option c"]
+        }
+    ]

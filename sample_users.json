@@ -1,0 +1,14 @@
+[
+    {
+        "user_id":1,
+        "name" : "Juan",
+        "role" : "P",
+        "approved_lessons" : null
+    },
+    {
+        "user_id":2,
+        "name" : "Carlos",
+        "role" : "S",
+        "approved_lessons" : []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {   
+        "course_id" : 1,
+        "name" : "Course 1",
+        "previous_courses" : null,
+        "lessons" : [1,2]
+    },
+    {   
+        "course_id" : 2,
+        "name" : "Course 2",
+        "previous_courses" : null,
+        "lessons" : [4,5,6]
+    },
+    {   
+        "course_id" : 3,
+        "name" : "Course 3",
+        "previous_courses" : [1,2],
+        "lessons" : [7,8]
+    },
+    {   
+        "course_id" : 4,
+        "name" : "Course 4",
+        "previous_courses" : [3],
+        "lessons" : [9,10]
+    }
+]
