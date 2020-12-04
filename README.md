@@ -49,7 +49,7 @@ Only professor can alter the data (create, update, or delete).
  - **POST ~ /api/questions/**
  - **PUT ~ /api/questions/int:question_id**
  - **DELETE ~ /api/questions/int:question_id**
- -  -**POST ~ /api/lessons/answer/int:lesson_id**
+ - **POST ~ /api/lessons/answer/int:lesson_id**
 
 
 This API always answers with a **JSON**, either with the data requested or with an *errors* message.
@@ -241,40 +241,40 @@ Response:
  
 
 	    {
-	  "lesson_id": 1,
-	  "name": "Lesson 1",
-	  "previous_lessons": null,
-	  "minimum_score": 6,
-	  "questions": [
-	    {
-	      "question_id": 1,
-	      "question": "Question 1?",
-	      "score": 4,
-	      "allCorrectRequired": true,
-	      "aswers": [
-		"True",
-		"False"
-	      ],
-	      "correct_answers": [
-		"True"
-	      ]
-	    },
-	    {
-	      "question_id": 2,
-	      "question": "Question 2?",
-	      "score": 2,
-	      "allCorrectRequired": true,
-	      "aswers": [
-		"Option a",
-		"Option b",
-		"Option c"
-	      ],
-	      "correct_answers": [
-		"Option b"
-	      ]
-	    }
-	  ]
-	}
+		  "lesson_id": 1,
+		  "name": "Lesson 1",
+		  "previous_lessons": null,
+		  "minimum_score": 6,
+		  "questions": [
+		    {
+		      "question_id": 1,
+		      "question": "Question 1?",
+		      "score": 4,
+		      "allCorrectRequired": true,
+		      "aswers": [
+			"True",
+			"False"
+		      ],
+		      "correct_answers": [
+			"True"
+		      ]
+		    },
+		    {
+		      "question_id": 2,
+		      "question": "Question 2?",
+		      "score": 2,
+		      "allCorrectRequired": true,
+		      "aswers": [
+			"Option a",
+			"Option b",
+			"Option c"
+		      ],
+		      "correct_answers": [
+			"Option b"
+		      ]
+		    }
+		  ]
+		}
 
 Here’s the response when lesson_id isn’s found:
 Request: GET http://localhost:3000/api/lessons/5
