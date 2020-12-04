@@ -62,86 +62,86 @@ Request: GET http://localhost:3000/api/courses/1
 Response:
 		
 	    {
-	  "name": "Course 1",
-	  "previous_courses": null,
-	  "lessons": [
-	    {
-	      "lesson_id": 1,
-	      "name": "Lesson 1",
-	      "previous_lessons": null,
-	      "minimum_score": 6,
-	      "questions": [
-		{
-		  "question_id": 1,
-		  "question": "Question 1?",
-		  "score": 4,
-		  "allCorrectRequired": true,
-		  "aswers": [
-		    "True",
-		    "False"
-		  ],
-		  "correct_answers": [
-		    "True"
-		  ]
-		},
-		{
-		  "question_id": 2,
-		  "question": "Question 2?",
-		  "score": 2,
-		  "allCorrectRequired": true,
-		  "aswers": [
-		    "Option a",
-		    "Option b",
-		    "Option c"
-		  ],
-		  "correct_answers": [
-		    "Option b"
+		  "name": "Course 1",
+		  "previous_courses": null,
+		  "lessons": [
+		    {
+		      "lesson_id": 1,
+		      "name": "Lesson 1",
+		      "previous_lessons": null,
+		      "minimum_score": 6,
+		      "questions": [
+			{
+			  "question_id": 1,
+			  "question": "Question 1?",
+			  "score": 4,
+			  "allCorrectRequired": true,
+			  "aswers": [
+			    "True",
+			    "False"
+			  ],
+			  "correct_answers": [
+			    "True"
+			  ]
+			},
+			{
+			  "question_id": 2,
+			  "question": "Question 2?",
+			  "score": 2,
+			  "allCorrectRequired": true,
+			  "aswers": [
+			    "Option a",
+			    "Option b",
+			    "Option c"
+			  ],
+			  "correct_answers": [
+			    "Option b"
+			  ]
+			}
+		      ]
+		    },
+		    {
+		      "lesson_id": 2,
+		      "name": "Lesson 2",
+		      "previous_lessons": [
+			1
+		      ],
+		      "minimum_score": 8,
+		      "questions": [
+			{
+			  "question_id": 3,
+			  "question": "Question 3?",
+			  "score": 4,
+			  "allCorrectRequired": false,
+			  "aswers": [
+			    "Option a",
+			    "Option b",
+			    "Option c"
+			  ],
+			  "correct_answers": [
+			    "Option b",
+			    "Option c"
+			  ]
+			},
+			{
+			  "question_id": 4,
+			  "question": "Question 4?",
+			  "score": 4,
+			  "allCorrectRequired": true,
+			  "aswers": [
+			    "Option a",
+			    "Option b",
+			    "Option c"
+			  ],
+			  "correct_answers": [
+			    "Option b",
+			    "Option c"
+			  ]
+			}
+		      ]
+		    }
 		  ]
 		}
-	      ]
-	    },
-	    {
-	      "lesson_id": 2,
-	      "name": "Lesson 2",
-	      "previous_lessons": [
-		1
-	      ],
-	      "minimum_score": 8,
-	      "questions": [
-		{
-		  "question_id": 3,
-		  "question": "Question 3?",
-		  "score": 4,
-		  "allCorrectRequired": false,
-		  "aswers": [
-		    "Option a",
-		    "Option b",
-		    "Option c"
-		  ],
-		  "correct_answers": [
-		    "Option b",
-		    "Option c"
-		  ]
-		},
-		{
-		  "question_id": 4,
-		  "question": "Question 4?",
-		  "score": 4,
-		  "allCorrectRequired": true,
-		  "aswers": [
-		    "Option a",
-		    "Option b",
-		    "Option c"
-		  ],
-		  "correct_answers": [
-		    "Option b",
-		    "Option c"
-		  ]
-		}
-	      ]
-	    }
-	  ]
-	}
 
 Here's  the response when course_id isn's found:
 Request: GET http://localhost:3000/api/courses/5
